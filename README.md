@@ -4,7 +4,7 @@ This repository contains the Python code for the research work titled **"A Cross
 
 ## Overview
 
-The project investigates the viability of the hypothesis - "Performance variations in Sarcasm Detection models due to single model component changes (e.g., embeddings, classifiers) are independent of the target language". Key components include:
+The project investigates the viability of the hypothesis - "*Performance variations in Sarcasm Detection models due to single model component changes (e.g., embeddings, classifiers) are independent of the target language*". Key components include:
 
 - **Data Preprocessing**: Text data is preprocessed using the spaCy package (English), and BNLP and Bangla-Stemmer package (Bangla) in Python.
 - **Feature Extraction**: Pre-trained models XLM-RoBERTa, mBERT and mT5 are used for feature extraction.
@@ -16,6 +16,6 @@ For this cross-language study, a Bangla dataset was used from [here](https://hug
 
 
 ## Results
- The Wilcoxon Signed-Rank Test yields a p-value of 0.21, unable to reject the hypothesis.
+ The Wilcoxon Signed-Rank Test yields a *p*-value of 0.21, unable to reject the hypothesis.
 
 
